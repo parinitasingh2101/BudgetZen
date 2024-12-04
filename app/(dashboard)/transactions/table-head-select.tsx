@@ -37,7 +37,7 @@ export const TableHeadSelect = ({
         <SelectValue placeholder="Skip" />
       </SelectTrigger>
       <SelectContent>
-        <SelectItem value="skip">Sikp</SelectItem>
+        <SelectItem value="skip">Skip</SelectItem>
         {options.map((option, index) => {
           const disabled =
             Object.values(selectedColumns).includes(option) &&
